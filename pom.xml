@@ -59,16 +59,20 @@
 			<groupId>com.mysql</groupId>
 			<scope>runtime</scope>
 		</dependency>
-<!--		<dependency>-->
-<!--			<artifactId>flyway-core</artifactId>-->
-<!--			<groupId>org.flywaydb</groupId>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<artifactId>flyway-mysql</artifactId>-->
-<!--			<groupId>org.flywaydb</groupId>-->
-<!--		</dependency>-->
+		<dependency>
+			<artifactId>flyway-core</artifactId>
+			<groupId>org.flywaydb</groupId>
+		</dependency>
+		<dependency>
+			<artifactId>flyway-mysql</artifactId>
+			<groupId>org.flywaydb</groupId>
+		</dependency>
 
-
+		<dependency>
+			<artifactId>lombok</artifactId>
+			<groupId>org.projectlombok</groupId>
+			<scope>annotationProcessor</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
